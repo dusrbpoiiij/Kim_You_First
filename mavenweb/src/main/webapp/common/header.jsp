@@ -6,7 +6,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
-<link rel="stylesheet"	href="<%=request.getContextPath()%>/css/header.css">
+<link rel="stylesheet"	href="<%=request.getContextPath()%>/css/header.css?ver=1.2">
 <link href="https://fonts.googleapis.com/css?family=Sunflower:300&display=swap"	rel="stylesheet">
 <title>미래 컨설팅</title>
 </head>
@@ -14,25 +14,17 @@
 	<div class="header">
 		<div class="headerInner">
 			<h1 class="logo">
-				<a href="#">For Your Future</a>
+				<a href="#">미래 연구소</a>
+				<p>For Your Future</p>
 			</h1>
 			<ul class="util">
-				<li><a href="">멤버십 로그인</a></li>
-				<li><a href="">멤버십 가입</a></li>
+				<li><a href="">로그인</a></li>
+				<li><a href="">회원 가입</a></li>
 				<li><a href="">고객센터</a></li>
-				<li><a href="">English</a></li>
-				<li><a href="">中文</a></li>
 			</ul>
-			<ul class="quickBanner">
-				<li class="btn_franchise"><a href=""><img
-						src="<%=request.getContextPath()%>/image/gnb_smenu01.png"
-						alt="Franchise"></a></li>
-				<li><a href=""><img
-						src="<%=request.getContextPath()%>/image/gnb_smenu02_2.gif"
-						alt="Academy"></a></li>
-				<li><a href=""><img class="img_business"
-						src="<%=request.getContextPath()%>/image/gnb_smenu04.gif"
-						alt="business"></a></li>
+			<ul class="left-util">
+				<li><a href="">미래 연구소란?</a></li>
+				<li><a href="">이용방법</a></li>
 			</ul>
 		</div>
 	</div>

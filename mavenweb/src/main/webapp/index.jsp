@@ -7,35 +7,13 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="<%=request.getContextPath()%>/css/index.css">
     <link href="https://fonts.googleapis.com/css?family=Sunflower:300&display=swap" rel="stylesheet">
-    <title>HOLLYS Coffee</title>
+    <title>For Your Future</title>
 </head>
 <body>
     <div class="wrap">
-        <div class="header">
-            <div class="headerInner">
-                <h1 class="logo"><a href="#"><img src="<%=request.getContextPath()%>/image/logo.gif" alt="HOLLYS COFFEE"></a></h1>
-                <ul class="util">
-                    <li><a href="">멤버십 로그인</a></li>
-                    <li><a href="">멤버십 가입</a></li>
-                    <li><a href="">고객센터</a></li>
-                    <li><a href="">English</a></li>
-                    <li><a href="">中文</a></li>
-                </ul>
-                <ul class="quickBanner">
-                    <li class="btn_franchise"><a href=""><img src="<%=request.getContextPath()%>/image/gnb_smenu01.png" alt="Franchise"></a></li>
-                    <li><a href=""><img src="<%=request.getContextPath()%>/image/gnb_smenu02_2.gif" alt="Academy"></a></li>
-                    <li><a href=""><img class="img_business" src="<%=request.getContextPath()%>/image/gnb_smenu04.gif" alt="business"></a></li>
-                </ul>
-                <ul class="gnb">
-                    <li><a href="">Menu</a></li>
-                    <li><a href="">HOLLYS Mall</a></li>
-                    <li><a href="">Membership</a></li>
-                    <li><a href="">HOLLYS News</a></li>
-                    <li><a href="">Store</a></li>
-                    <li><a href="">HOLLYS is</a></li>
-                </ul>
-            </div>
-        </div>
+		<!-- Header -->
+		<jsp:include page="common/header.jsp"></jsp:include>
+
 
         <div class="main_visual_slide_img">
             <ul>

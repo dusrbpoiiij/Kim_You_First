@@ -1,7 +1,7 @@
 .header {
     min-width: 940px;
-    height: 148px;
     background-color:#fff;
+    font-family: Sunflower;
 }
 .headerInner {
     width: 940px;
@@ -15,18 +15,25 @@
 }
 .logo {
     grid-area: logo;
+    text-align:center;
+    margin: 0 left;
+    justify-items : flex-end;
 }
 
 .logo a{
-    grid-area: logo;
     text-decoration: none;
     color: #262626;
-    font-family: Sunflower;
-    font-size : 20px;
+    font-size : 22px;
+}
+.logo p {
+	color: #262626;
+    font-size : 14px;
+    margin: 0px;
+    padding: 0px;
 }
 
 .util {
-    width: 80%;
+    width: 60%;
     padding: 0px;
     grid-area: right;
     display: flex;
@@ -43,28 +50,30 @@
 .util li a {
     color:#262626;
     text-decoration: none;
-    font-size: 11px;
+    font-size: 13px;
     font-weight: bold;
 }
 
-.quickBanner {
-    width: 80%;
+.left-util {
+    width: 60%;
     padding: 0px;
     grid-area: left;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
 }
-.btn_franchise {
-    margin-top: -3px !important;
-}
-.quickBanner li {
-    margin-top:-25px;
+
+.left-util li {
     text-decoration: none;
     list-style-type: none;
     align-self: center;
-}
-.img_business {
     position: relative;
-    top: -2px;
+    top: -15px;
+}
+
+.left-util li a {
+	color:#262626;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: bold;
 }

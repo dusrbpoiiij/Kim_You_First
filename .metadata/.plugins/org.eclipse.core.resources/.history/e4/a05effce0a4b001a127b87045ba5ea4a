@@ -1,0 +1,76 @@
+.header {
+    min-width: 940px;
+    height: 148px;
+    background-color:#fff;
+    font-family: Sunflower;
+}
+.headerInner {
+    width: 940px;
+    margin: 0 auto;
+    background-color: #fff;
+    display:grid;
+    grid-template-columns: 3fr 1fr 3fr;
+    grid-template-areas: 
+        "left logo right" ;
+    justify-items: center;
+}
+.logo {
+    grid-area: logo;
+    text-align:center;
+    margin: 0 left;
+    justify-items : flex-end;
+}
+
+.logo a{
+    text-decoration: none;
+    color: #262626;
+    font-size : 22px;
+}
+.logo p {
+	color: #262626;
+    font-size : 14px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.util {
+    width: 60%;
+    padding: 0px;
+    grid-area: right;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.util li {
+    text-decoration: none;
+    list-style-type: none;
+    align-self: center;
+    position: relative;
+    top: -15px;
+}
+.util li a {
+    color:#262626;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.left-util {
+    width: 80%;
+    padding: 0px;
+    grid-area: left;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.left-util li {
+    text-decoration: none;
+    list-style-type: none;
+    align-self: center;
+    position: relative;
+    top: -15px;
+}
+.left-util li a {
+	
+}
